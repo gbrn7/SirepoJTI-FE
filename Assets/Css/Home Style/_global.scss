@@ -1,0 +1,147 @@
+body {
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease-out;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #f5f5f5;
+}
+
+.img-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.dropdown-menu {
+    background-color: #2d4059;
+}
+
+.dropdown-item:hover {
+    background-color: #b14e56;
+}
+
+.navbar {
+    .sidebar-logo {
+        max-width: 75%;
+
+        @include media-breakpoint-down(md) {
+            max-width: 60%;
+        }
+    }
+
+    .nav-item:hover {
+        background-color: #b14e56;
+    }
+
+    .offcanvas {
+        background-color: #2d4059;
+
+        .close-icon {
+            cursor: pointer;
+        }
+
+        .offcanvas-header {
+            border-bottom: 1px solid #8d8d8d;
+        }
+
+        .Nav-text {
+            font-size: 18px;
+
+            @include media-breakpoint-down(md) {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.content-wrapper {
+    height: 100dvh;
+
+    .head-title {
+        font-size: 24px;
+        letter-spacing: -2px;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 20px;
+            letter-spacing: -1px;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: 12px;
+            letter-spacing: 0px;
+        }
+    }
+
+    .main-title {
+        font-size: 44px;
+        letter-spacing: -2px;
+
+        @include media-breakpoint-down(lg) {
+            font-size: 28px;
+            letter-spacing: -1px;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: 16px;
+            letter-spacing: 0px;
+        }
+    }
+
+    .jti-logo {
+        max-width: 170px;
+
+        @include media-breakpoint-down(lg) {
+            max-width: 140px;
+        }
+        @include media-breakpoint-down(md) {
+            max-width: 100px;
+        }
+    }
+
+    .input-group {
+        width: 100%;
+
+        -webkit-box-shadow: -1px 24px 26px -8px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: -1px 24px 26px -8px rgba(0, 0, 0, 0.15);
+        box-shadow: -1px 24px 26px -8px rgba(0, 0, 0, 0.15);
+
+        .search-input {
+            font-size: 20px;
+            @include media-breakpoint-down(lg) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .main-content {
+        margin-top: 15%;
+
+        @include media-breakpoint-down(lg) {
+            margin-top: 20%;
+        }
+        @include media-breakpoint-down(md) {
+            margin-top: 30%;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-top: 40%;
+        }
+    }
+}
+
+.footer-wrapper {
+    z-index: 500;
+    border-top: 1px solid #8d8d8d;
+
+    .footer-logo {
+        max-width: 40px;
+    }
+
+    .footer-content {
+        font-size: 14px;
+    }
+
+    .footer-text {
+        @include media-breakpoint-down(md) {
+            font-size: 12px;
+        }
+    }
+}

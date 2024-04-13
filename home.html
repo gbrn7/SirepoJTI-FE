@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sirepo-JTI | Login</title>
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="Assets/img/jti_logo.png" />
+
+    <!-- CSS Bootsrap-->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/bootstrap-5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Link BoxIcon -->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/boxicons-master/css/boxicons.min.css"
+    />
+
+    <!-- Link Remixicon -->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/RemixIcon-master/fonts/remixicon.css"
+    />
+
+    <!-- Link AOS -->
+    <link rel="stylesheet" href="Assets/Vendor/aos-2/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/Css/Home Style/main.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-lg">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown">
+          <a
+            class="nav-link d-flex gap-2 pt-3 pt-md-0 align-items-center justify-content-end dropdown-toggle"
+            href="#"
+            role="button"
+            aria-current="page"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="Assets/img/Ellipse 4.png" class="img-fluid img-avatar" />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end px-2">
+            <li class="rounded-2 dropdown-list my-profile">
+              <a class="dropdown-item text-white rounded-2" href="#"
+                ><i class="ri-user-3-line me-2 text-white"></i>Edit Profile</a
+              >
+            </li>
+            <li class="rounded-2 dropdown-list">
+              <a href="" class="dropdown-item rounded-2 text-white"
+                ><i class="ri-logout-circle-line me-2 text-white"></i>Sign
+                Out</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="offcanvas offcanvas-start cursor-pointer"
+          tabindex="5"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img src="Assets/img/Sidebar-logo.png" class="sidebar-logo" />
+            <i
+              class="ri-close-line text-white-50 fs-2 close-icon"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></i>
+          </div>
+          <div class="offcanvas-body mt-1 p-0">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item py-1 fw-light ps-3">
+                <a
+                  class="nav-link active d-flex align-items-center gap-2 text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="ri-home-2-fill nav-icon fs-5"></i
+                  ><span class="Nav-text">Home</span></a
+                >
+              </li>
+              <li class="nav-item py-1 fw-light ps-3">
+                <a
+                  class="nav-link active d-flex align-items-center gap-2 text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="ri-team-line nav-icon fs-5"></i
+                  ><span class="Nav-text">User Management</span></a
+                >
+              </li>
+              <li class="nav-item py-1 fw-light ps-3">
+                <a
+                  class="nav-link active d-flex align-items-center gap-2 text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="ri-file-copy-2-fill nav-icon fs-5"></i
+                  ><span class="Nav-text">Category Management</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container-lg content-wrapper">
+      <div class="row justify-content-center h-100">
+        <div
+          class="d-flex flex-column align-items-center main-content col-10 col-lg-8"
+        >
+          <div
+            class="logo-wrapper d-flex align-items-center justify-content-center gap-3"
+          >
+            <img src="Assets/img/jti_logo.png" class="jti-logo" />
+            <div class="text-wrapper gap-1">
+              <p class="m-0 head-title">Sistem Informasi</p>
+              <h1 class="fw-bold m-0 main-title">REPOSITORI SKRIPSI JTI</h1>
+            </div>
+          </div>
+          <div class="input-group mt-4">
+            <input
+              type="text"
+              class="form-control py-2 px-3 search-input border-0"
+              placeholder="Search"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2"
+            />
+            <span
+              class="input-group-text btn btn-danger d-flex align-items-center fs-5 px-3"
+              id="basic-addon2"
+              ><i class="ri-search-line"></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Footer -->
+  <div class="container-lg footer-wrapper fixed-bottom pt-3">
+    <div class="col-12">
+      <div class="logo-wrapper d-flex gap-2">
+        <img src="Assets/img/jti_logo.png" class="footer-logo" />
+        <img src="Assets/img/polinema_logo.png" class="footer-logo" />
+      </div>
+      <div class="footer-content mt-3">
+        <p class="m-0 fw-light footer-text departement">
+          Jurusan Teknologi Informasi Politeknik Negeri Malang
+        </p>
+        <p class="m-0 fw-light footer-text address">
+          JL. Soekarno-Hatta No. 9 Malang 65141
+        </p>
+        <p class="m-0 fw-light footer-text phone">
+          Telepon <span>+62 (0341) 404424 – 404425</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap js -->
+  <script src="Assets/Vendor/bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</html>

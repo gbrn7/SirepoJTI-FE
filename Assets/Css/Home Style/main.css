@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease-out;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #f5f5f5;
+}
+
+.img-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.dropdown-menu {
+  background-color: #2d4059;
+}
+
+.dropdown-item:hover {
+  background-color: #b14e56;
+}
+
+.navbar .sidebar-logo {
+  max-width: 75%;
+}
+@media (max-width: 767.98px) {
+  .navbar .sidebar-logo {
+    max-width: 60%;
+  }
+}
+.navbar .nav-item:hover {
+  background-color: #b14e56;
+}
+.navbar .offcanvas {
+  background-color: #2d4059;
+}
+.navbar .offcanvas .close-icon {
+  cursor: pointer;
+}
+.navbar .offcanvas .offcanvas-header {
+  border-bottom: 1px solid #8d8d8d;
+}
+.navbar .offcanvas .Nav-text {
+  font-size: 18px;
+}
+@media (max-width: 767.98px) {
+  .navbar .offcanvas .Nav-text {
+    font-size: 12px;
+  }
+}
+
+.content-wrapper {
+  height: 100dvh;
+}
+.content-wrapper .head-title {
+  font-size: 24px;
+  letter-spacing: -2px;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .head-title {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 767.98px) {
+  .content-wrapper .head-title {
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+}
+.content-wrapper .main-title {
+  font-size: 44px;
+  letter-spacing: -2px;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .main-title {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 767.98px) {
+  .content-wrapper .main-title {
+    font-size: 16px;
+    letter-spacing: 0px;
+  }
+}
+.content-wrapper .jti-logo {
+  max-width: 170px;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .jti-logo {
+    max-width: 140px;
+  }
+}
+@media (max-width: 767.98px) {
+  .content-wrapper .jti-logo {
+    max-width: 100px;
+  }
+}
+.content-wrapper .input-group {
+  width: 100%;
+  box-shadow: -1px 24px 26px -8px rgba(0, 0, 0, 0.15);
+}
+.content-wrapper .input-group .search-input {
+  font-size: 20px;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .input-group .search-input {
+    font-size: 16px;
+  }
+}
+.content-wrapper .main-content {
+  margin-top: 15%;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .main-content {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 767.98px) {
+  .content-wrapper .main-content {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 575.98px) {
+  .content-wrapper .main-content {
+    margin-top: 40%;
+  }
+}
+
+.footer-wrapper {
+  z-index: 500;
+  border-top: 1px solid #8d8d8d;
+}
+.footer-wrapper .footer-logo {
+  max-width: 40px;
+}
+.footer-wrapper .footer-content {
+  font-size: 14px;
+}
+@media (max-width: 767.98px) {
+  .footer-wrapper .footer-text {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=main.css.map */

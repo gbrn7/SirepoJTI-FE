@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sirepo-JTI | Login</title>
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="Assets/img/jti_logo.png" />
+
+    <!-- CSS Bootsrap-->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/bootstrap-5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Link BoxIcon -->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/boxicons-master/css/boxicons.min.css"
+    />
+
+    <!-- Link Remixicon -->
+    <link
+      rel="stylesheet"
+      href="Assets/Vendor/RemixIcon-master/fonts/remixicon.css"
+    />
+
+    <!-- Link AOS -->
+    <link rel="stylesheet" href="Assets/Vendor/aos-2/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Assets/Css/Login style/main.css" />
+  </head>
+  <body>
+    <section class="login row justify-content-between">
+      <div
+        class="content-left col-lg-7 d-none d-lg-block h-100"
+        style="
+          background: url('Assets/img/auth-admin-hero.jpg');
+          background-size: cover;
+          background-position-x: center;
+          background-position-y: center;
+        "
+      ></div>
+      <div class="col-lg-5 col-12 h-100 content-right">
+        <div class="row justify-content-center align-items-center h-100">
+          <div
+            class="border border-2 signin-box p-3 p-sm-4 rounded rounded-5 col-8 col-md-6"
+          >
+            <div class="header">
+              <div class="text-center">
+                <div class="logo-wrapper d-flex gap-3 justify-content-center">
+                  <img src="Assets/img/jti_logo.png" class="header-logo" />
+                  <img src="Assets/img/polinema_logo.png" class="header-logo" />
+                </div>
+                <h1 class="my-0 mt-4 fs-3">Sign as administrator</h1>
+              </div>
+            </div>
+            <form action="home.html" method="post">
+              <div class="login-form d-flex flex-column gap-1 gap-lg-3 mt-3">
+                <input
+                  name="email"
+                  class="form-control text-black"
+                  id="email"
+                  placeholder="Masukan username"
+                />
+                <div class="password-container">
+                  <div class="pass-wrapper">
+                    <input
+                      name="password"
+                      type="password"
+                      class="form-control text-"
+                      id="password"
+                      placeholder="Masukan password"
+                    />
+                  </div>
+                </div>
+                <button class="btn login-btn mt-1 mt-lg-2" type="submit">
+                  Sign In
+                </button>
+                <a
+                  href="signIn-user.html"
+                  class="text-decoration-none fw-light text-center link-text"
+                  >Login as User</a
+                >
+              </div>
+            </form>
+            <div class="auth-footer text-center text-secondary mt-1">
+              <span class="copyright">Copyright ©2024, SirepoJTI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap js -->
+  <script src="Assets/Vendor/bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Sweet Alert -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</html>

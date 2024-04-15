@@ -7,53 +7,8 @@ body {
   background-color: #f5f5f5;
 }
 
-.img-avatar {
-  height: 50px;
-  width: 50px;
-  border-radius: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.dropdown-menu {
-  background-color: #2d4059;
-}
-
-.dropdown-item:hover {
-  background-color: #b14e56;
-}
-
-.navbar .sidebar-logo {
-  max-width: 75%;
-}
-@media (max-width: 767.98px) {
-  .navbar .sidebar-logo {
-    max-width: 60%;
-  }
-}
-.navbar .nav-item:hover {
-  background-color: #b14e56;
-}
-.navbar .offcanvas {
-  background-color: #2d4059;
-}
-.navbar .offcanvas .close-icon {
-  cursor: pointer;
-}
-.navbar .offcanvas .offcanvas-header {
-  border-bottom: 1px solid #8d8d8d;
-}
-.navbar .offcanvas .Nav-text {
-  font-size: 18px;
-}
-@media (max-width: 767.98px) {
-  .navbar .offcanvas .Nav-text {
-    font-size: 12px;
-  }
-}
-
-.content-wrapper {
-  height: 100dvh;
+.content-wrapper p {
+  color: #2d4059;
 }
 .content-wrapper .head-title {
   font-size: 24px;
@@ -70,6 +25,12 @@ body {
     font-size: 12px;
     letter-spacing: 0px;
   }
+}
+.content-wrapper ::-moz-placeholder {
+  color: #b0a8a8;
+}
+.content-wrapper ::placeholder {
+  color: #b0a8a8;
 }
 .content-wrapper .main-title {
   font-size: 44px;
@@ -112,6 +73,14 @@ body {
     font-size: 16px;
   }
 }
+.content-wrapper .year-input {
+  border-radius: 8px !important;
+}
+.content-wrapper .btn-apply {
+  background-color: #ea5455;
+  color: white;
+  font-size: 16px;
+}
 .content-wrapper .main-content {
   margin-top: 15%;
 }
@@ -130,19 +99,36 @@ body {
     margin-top: 40%;
   }
 }
-
-.footer-wrapper {
-  z-index: 500;
-  border-top: 1px solid #8d8d8d;
+.content-wrapper .content .filter-box {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.footer-wrapper .footer-logo {
-  max-width: 40px;
+.content-wrapper .content .filter-box .body-filter .checkbox {
+  width: 20px;
+  height: 20px;
+  position: absolute;
 }
-.footer-wrapper .footer-content {
-  font-size: 14px;
+.content-wrapper .content .thesis-list-box .pagination-nav {
+  font-size: 12px;
 }
-@media (max-width: 767.98px) {
-  .footer-wrapper .footer-text {
-    font-size: 12px;
+.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
+  font-size: 20px;
+  color: #ea5455;
+}
+@media (max-width: 991.98px) {
+  .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
+    font-size: 16px;
   }
+}
+.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title:hover {
+  text-decoration: underline !important;
+}
+.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-author {
+  font-size: 12px;
+  color: #f07b3f;
+}
+.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-abstract {
+  font-size: 12px;
+  color: #2d4059;
 }/*# sourceMappingURL=main.css.map */

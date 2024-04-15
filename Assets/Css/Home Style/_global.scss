@@ -7,7 +7,14 @@ body {
 }
 
 .content-wrapper {
-    // height: 100dvh;
+    .breadcrumb-item a {
+        color: #2d4059;
+    }
+    background-color: transparent !important;
+
+    .breadcrumb-item.active {
+        color: #648bbf;
+    }
 
     p {
         color: #2d4059;

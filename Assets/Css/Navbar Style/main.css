@@ -1,18 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
-.navbar {
-  background-color: transparent !important;
-}
 .navbar p {
   color: #2d4059;
 }
 .navbar span {
   color: #2d4059;
-}
-.navbar .breadcrumb-item a {
-  color: #2d4059;
-}
-.navbar .breadcrumb-item.active {
-  color: #648bbf;
 }
 .navbar .dropdown-menu {
   background-color: #2d4059;

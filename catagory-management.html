@@ -106,7 +106,7 @@
           >
             <div class="wrapper">
               <a href="#" class="btn btn-success">
-                <div class="wrapper d-flex gap-2 align-items-center">
+                <div class="wrapper d-flex gap-2 align-items-center" id="add" data-bs-toggle="modal" data-bs-target="#addnewcategory">
                   <i class="ri-add-line"></i>
                   <span class="fw-medium">Add Category</span>
                 </div>
@@ -148,10 +148,8 @@
                     <form action="#">
                       <button  type="submit" class="btn  btn-danger">Delete</button>
                     </form>
-                    <form action="#">
-                      <button type="submit" class="btn  btn-warning text-white">Edit</button>
-                    </form>
-                    <a href="#" class="btn btn-detail text-white">Detail</a>
+                      <div  data-bs-toggle="modal" data-bs-target="#editcategory" class="btn  btn-warning text-white">Edit</div>
+                    <a href="#"  class="btn btn-detail text-white">Detail</a>
                   </td>
                 </tr>
                 <tr>
@@ -260,6 +258,57 @@
         </ul>
       </div>
     </div>
+
+    <!-- Create Modal -->
+    <div class="modal fade" id="addnewcategory" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Add Category</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action=# id="addForm" method="POST">
+              <div class="form-group mb-3">
+                <label for="name" class="mb-1">Name</label>
+                <input value="" required class="form-control" type="text" name="name" id="name"
+                  placeholder="Enter the category name" />
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-success">Save</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal fade" id="editcategory" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Edit Category</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action=# id="addForm" method="POST">
+              <div class="form-group mb-3">
+                <label for="name" class="mb-1">Name</label>
+                <input value="Data Visualization" required class="form-control" type="text" name="name" id="name"
+                  placeholder="Enter the category name" />
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-warning text-white">Update</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- Footer -->
     <div class="container-lg footer-wrapper pt-3 mt-2 pb-2">

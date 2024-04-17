@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sirepo-JTI | Detal Document</title>
+    <title>Sirepo-JTI | Create Document</title>
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="Assets/img/jti_logo.png" />
 
@@ -35,7 +35,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="Assets/Css/Detail-Document_style/main.css" />
+    <link rel="stylesheet" href="Assets/Css/Form_style/main.css" />
     <link rel="stylesheet" href="Assets/Css/Navbar_style/main.css" />
     <link rel="stylesheet" href="Assets/Css/Off-canvase_style/main.css" />
     <link rel="stylesheet" href="Assets/Css/Footer_style/main.css" />
@@ -87,126 +87,84 @@
       </nav>
 
       <!-- Content -->
-      <div class="content-wrapper container-lg">
+      <div class="container-lg content-wrapper">
         <div class="breadcrumbs-box mt-1 py-2">
-          <div class="page-title mb-1">Detail Document</div>
+          <div class="page-title mb-1">Add User</div>
           <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb m-0">
               <li class="breadcrumb-item d-flex gap-2 align-items-center">
-                <a href="#" class="text-decoration-none">Home Search</a>
+                <a href="#" class="text-decoration-none">Home</a>
+              </li>
+              <li class="breadcrumb-item d-flex gap-2 align-items-center">
+                <a href="#" class="text-decoration-none">User Management</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                A strategy to create daily Consumer Price Index by using big
-                data in Statistics Indonesia
+                Add User
               </li>
             </ol>
           </nav>
         </div>
         <div class="main-content mt-3">
-          <div class="header-content">
-            <div class="thesis-title fw-semibold text-capitalize">
-              A strategy to create daily Consumer Price Index by using big data
-              in Statistics Indonesia
-            </div>
-            <div class="thesis-identity mt-1 fw-normal">
-              Gadhis Pramestya A - Sistem Informasi Bisnis
-            </div>
+          <div class="mb-2">
+            <label class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter the name"
+            />
           </div>
-          <div class="body-content mt-3">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="home-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#overview-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="overview-tab-pane"
-                  aria-selected="true"
-                >
-                  Overview
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="profile-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#pdf-tab-pane"
-                  type="button"
-                  role="tab"
-                  aria-controls="pdf-tab-pane"
-                  aria-selected="false"
-                >
-                  File PDF
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-              <div
-                class="tab-pane overview-wrapper fade show active"
-                id="overview-tab-pane"
-                role="tabpanel"
-                aria-labelledby="home-tab"
-                tabindex="0"
-              >
-                <div class="info-wrapper abstract-wrapper mt-2">
-                  <div class="title fw-medium">Abstract :</div>
-                  <div class="body fw-light">
-                    Statistics Indonesia is an Indonesian Government Agency
-                    which is carrying out government duties in the field of
-                    statistics. Until now, Statistics Indonesia has been
-                    carrying out data collection in three ways: censuses,
-                    surveys, and compilation of administrative products.
-                    Consumer price data collection through the Survey of
-                    Consumer Prices which is conducted by Statistics Indonesia
-                    take place in weekly, two weekly, and monthly. Until now,
-                    Statistics Indonesia has not publication in daily frequency
-                    especially for Consumer Price Index (CPI) and inflation
-                    product. Nowadays, big data is rapidly evolving and emerging
-                    from a variety of sources. Utilization of big data can
-                    provide opportunities for organizations to become smarter
-                    and more productive. Inthis paper, researcher identified
-                    that big data can be combined in statistical methodology as
-                    a part of data source in Statistics Indonesia.
-                  </div>
-                </div>
-                <div class="info-wrapper date-publication-wrapper">
-                  <div class="title fw-medium">Date Of publication :</div>
-                  <div class="body fw-light">12 January 2024</div>
-                </div>
-                <div class="info-wrapper author-wrapper">
-                  <div class="title fw-medium">Author :</div>
-                  <div class="body fw-light">Gadhis Pramestya Arifin</div>
-                </div>
-                <div class="info-wrapper prody-wrapper">
-                  <div class="title fw-medium">Program Study :</div>
-                  <div class="body fw-light">Sistem Informasi Bisnis</div>
-                </div>
-                <div class="info-wrapper majority-wrapper">
-                  <div class="title fw-medium">Majority :</div>
-                  <div class="body fw-light">Teknologi Informasi</div>
-                </div>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pdf-tab-pane"
-                role="tabpanel"
-                aria-labelledby="pdf-tab-pane"
-                tabindex="0"
-              >
-                <div class="pdf-wrapper d-flex align-items-center gap-2">
-                  <p class="mb-0">
-                    A strategy to create daily Consumer Price Index by using big
-                    data in Statistics Indonesia
-                  </p>
-                  <a href="#" class="text-decoration-none">
-                    <i class="ri-file-download-line fs-5 text-danger"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+          <div class="mb-2">
+            <label class="form-label">Username</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter the username"
+            />
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter the email"
+            />
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter the password"
+            />
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Departement</label>
+            <input
+              type="text"
+              disabled
+              class="form-control"
+              id="exampleFormControlInput1"
+              value="Teknologi Informasi"
+            />
+          </div>
+          <div class="mb-2">
+            <label class="form-label">Program Study</label>
+            <select class="form-select" aria-label="Default select example">
+              <option value="">Select the program study</option>
+              <option value="1">Teknik Informatika</option>
+              <option value="2">Sistem Informasi Bisnis</option>
+            </select>
+          </div>
+          <div class="mb-2">
+            <label for="formFile" class="form-label">Profile Picture</label>
+            <input class="form-control" type="file" id="formFile" />
+          </div>
+          <div class="wrapper d-flex justify-content-end">
+            <button class="btn text-white px-5 btn-warning">Submit</button>
           </div>
         </div>
       </div>
@@ -261,7 +219,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-lg footer-wrapper pt-3 pb-2 mt-4">
+    <div class="container-lg footer-wrapper pt-3 mt-2 pb-2">
       <div class="col-12">
         <div class="logo-wrapper d-flex gap-2">
           <img src="Assets/img/jti_logo.png" class="footer-logo" />
@@ -281,7 +239,6 @@
       </div>
     </div>
   </body>
-
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 

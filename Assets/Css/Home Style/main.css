@@ -6,138 +6,140 @@ body {
   scroll-behavior: smooth;
   background-color: #f5f5f5;
 }
-
-.content-wrapper {
+body p {
+  color: #2d4059;
+}
+body .content-wrapper {
   background-color: transparent !important;
 }
-.content-wrapper .breadcrumb-item a {
+body .content-wrapper .breadcrumb-item {
+  font-size: 14px;
+}
+body .content-wrapper .breadcrumb-item a {
   color: #2d4059;
 }
-.content-wrapper .breadcrumb-item.active {
+body .content-wrapper .breadcrumb-item.active {
   color: #648bbf;
 }
-.content-wrapper p {
-  color: #2d4059;
-}
-.content-wrapper .head-title {
+body .content-wrapper .head-title {
   font-size: 24px;
   letter-spacing: -2px;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .head-title {
+  body .content-wrapper .head-title {
     font-size: 20px;
     letter-spacing: -1px;
   }
 }
 @media (max-width: 767.98px) {
-  .content-wrapper .head-title {
+  body .content-wrapper .head-title {
     font-size: 12px;
     letter-spacing: 0px;
   }
 }
-.content-wrapper ::-moz-placeholder {
+body .content-wrapper ::-moz-placeholder {
   color: #b0a8a8;
 }
-.content-wrapper ::placeholder {
+body .content-wrapper ::placeholder {
   color: #b0a8a8;
 }
-.content-wrapper .main-title {
+body .content-wrapper .main-title {
   font-size: 44px;
   letter-spacing: -2px;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .main-title {
+  body .content-wrapper .main-title {
     font-size: 28px;
     letter-spacing: -1px;
   }
 }
 @media (max-width: 767.98px) {
-  .content-wrapper .main-title {
+  body .content-wrapper .main-title {
     font-size: 16px;
     letter-spacing: 0px;
   }
 }
-.content-wrapper .jti-logo {
+body .content-wrapper .jti-logo {
   max-width: 170px;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .jti-logo {
+  body .content-wrapper .jti-logo {
     max-width: 140px;
   }
 }
 @media (max-width: 767.98px) {
-  .content-wrapper .jti-logo {
+  body .content-wrapper .jti-logo {
     max-width: 100px;
   }
 }
-.content-wrapper .input-group {
+body .content-wrapper .input-group {
   width: 100%;
   box-shadow: -1px 24px 26px -8px rgba(0, 0, 0, 0.15);
 }
-.content-wrapper .input-group .search-input {
+body .content-wrapper .input-group .search-input {
   font-size: 20px;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .input-group .search-input {
+  body .content-wrapper .input-group .search-input {
     font-size: 16px;
   }
 }
-.content-wrapper .year-input {
+body .content-wrapper .year-input {
   border-radius: 8px !important;
 }
-.content-wrapper .btn-apply {
+body .content-wrapper .btn-apply {
   background-color: #ea5455;
   color: white;
   font-size: 16px;
 }
-.content-wrapper .main-content {
+body .content-wrapper .main-content {
   margin-top: 15%;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .main-content {
+  body .content-wrapper .main-content {
     margin-top: 20%;
   }
 }
 @media (max-width: 767.98px) {
-  .content-wrapper .main-content {
+  body .content-wrapper .main-content {
     margin-top: 30%;
   }
 }
 @media (max-width: 575.98px) {
-  .content-wrapper .main-content {
+  body .content-wrapper .main-content {
     margin-top: 40%;
   }
 }
-.content-wrapper .content .filter-box {
+body .content-wrapper .content .filter-box {
   background-color: white;
   border-radius: 16px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.content-wrapper .content .filter-box .body-filter .checkbox {
+body .content-wrapper .content .filter-box .body-filter .checkbox {
   width: 20px;
   height: 20px;
   position: absolute;
 }
-.content-wrapper .content .thesis-list-box .pagination-nav {
+body .content-wrapper .content .thesis-list-box .pagination-nav {
   font-size: 12px;
 }
-.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
+body .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
   font-size: 20px;
   color: #ea5455;
 }
 @media (max-width: 991.98px) {
-  .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
+  body .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title {
     font-size: 16px;
   }
 }
-.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title:hover {
+body .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-title:hover {
   text-decoration: underline !important;
 }
-.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-author {
+body .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-author {
   font-size: 12px;
   color: #f07b3f;
 }
-.content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-abstract {
+body .content-wrapper .content .thesis-list-box .thesis-box .thesis-item .thesis-abstract {
   font-size: 12px;
   color: #2d4059;
 }/*# sourceMappingURL=main.css.map */

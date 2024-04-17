@@ -39,48 +39,48 @@ body .content-wrapper .breadcrumbs-box .breadcrumb-item a {
 body .content-wrapper .breadcrumbs-box .breadcrumb-item.active {
   color: #648bbf;
 }
-body .content-wrapper .thesis-content .header-content .thesis-title {
+body .content-wrapper .main-content .header-content .thesis-title {
   font-size: 28px;
   color: #ea5455;
   letter-spacing: -1px;
 }
 @media (max-width: 991.98px) {
-  body .content-wrapper .thesis-content .header-content .thesis-title {
+  body .content-wrapper .main-content .header-content .thesis-title {
     font-size: 24px;
     letter-spacing: -1px;
   }
 }
 @media (max-width: 767.98px) {
-  body .content-wrapper .thesis-content .header-content .thesis-title {
+  body .content-wrapper .main-content .header-content .thesis-title {
     font-size: 20px;
     letter-spacing: 0px;
   }
 }
-body .content-wrapper .thesis-content .header-content .thesis-identity {
+body .content-wrapper .main-content .header-content .thesis-identity {
   color: #f07b3f;
   letter-spacing: -0.5px;
 }
 @media (max-width: 767.98px) {
-  body .content-wrapper .thesis-content .header-content .thesis-identity {
+  body .content-wrapper .main-content .header-content .thesis-identity {
     font-size: 14px;
   }
 }
-body .content-wrapper .thesis-content .body-content .nav-tabs .nav-link.active {
+body .content-wrapper .main-content .body-content .nav-tabs .nav-link.active {
   color: #648bbf;
 }
-body .content-wrapper .thesis-content .body-content .nav-tabs .nav-link {
+body .content-wrapper .main-content .body-content .nav-tabs .nav-link {
   color: #2d4059;
 }
-body .content-wrapper .thesis-content .body-content .tab-content .overview-wrapper .info-wrapper {
+body .content-wrapper .main-content .body-content .tab-content .overview-wrapper .info-wrapper {
   color: #2d4059;
   margin-bottom: 12px;
 }
-body .content-wrapper .thesis-content .body-content .tab-content .overview-wrapper .info-wrapper .title {
+body .content-wrapper .main-content .body-content .tab-content .overview-wrapper .info-wrapper .title {
   margin-bottom: 4px;
   letter-spacing: -0.5px;
 }
 @media (max-width: 767.98px) {
-  body .content-wrapper .thesis-content .body-content .tab-content .overview-wrapper .info-wrapper .body {
+  body .content-wrapper .main-content .body-content .tab-content .overview-wrapper .info-wrapper .body {
     font-size: 14px;
   }
 }/*# sourceMappingURL=main.css.map */

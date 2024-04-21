@@ -90,19 +90,20 @@
 
       <!-- Content -->
       <div class="container-lg content-wrapper">
+        <div class="breadcrumbs-box mt-1 py-2">
+          <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+            <ol class="breadcrumb m-0">
+              <li class="breadcrumb-item">
+                <a href="#" class="text-decoration-none">Home Search</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Search Result
+              </li>
+            </ol>
+          </nav>
+        </div>
+
         <form action="#">
-          <div class="breadcrumbs-box mt-1 py-2">
-            <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-              <ol class="breadcrumb m-0">
-                <li class="breadcrumb-item">
-                  <a href="#" class="text-decoration-none">Home Search</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Search Result
-                </li>
-              </ol>
-            </nav>
-          </div>
           <div class="col-lg-11 col-12">
             <div class="input-group">
               <input
@@ -131,63 +132,58 @@
                     <div class="category-filter">
                       <p class="mb-1 filter-title">Category</p>
                       <div class="category-box d-flex flex-column gap-1">
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >Big Data</label
                           >
                         </div>
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >UI UX</label
                           >
                         </div>
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >Machine Learning</label
                           >
                         </div>
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >IOT</label
                           >
                         </div>
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >Data Visualization</label
                           >
                         </div>
@@ -196,27 +192,25 @@
                     <div class="program-study-filter mt-2">
                       <p class="mb-1 filter-title">Program Study</p>
                       <div class="category-box d-flex flex-column gap-1">
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >Teknik Informatika</label
                           >
                         </div>
-                        <div class="checkbox-group d-flex gap-2">
+                        <div class="checkbox-group d-flex gap-1">
                           <input
                             type="checkbox"
                             class="checkbox"
                             name=""
                             id=""
                           />
-                          <label
-                            class="fw-light filter-label text-truncate ms-4"
+                          <label class="fw-light filter-label text-truncate"
                             >Sistem Informasi Bisnis</label
                           >
                         </div>
@@ -243,7 +237,7 @@
                         <input
                           type="text"
                           placeholder="Author"
-                          class="form-control ms-2 year-input"
+                          class="form-control year-input"
                         />
                       </div>
                     </div>
@@ -469,7 +463,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-lg footer-wrapper pt-3 pb-2 mt-2">
+    <div class="container-lg content-down footer-wrapper pt-3 pb-2 mt-2">
       <div class="col-12">
         <div class="logo-wrapper d-flex gap-2">
           <img src="Assets/img/jti_logo.png" class="footer-logo" />
